@@ -27,5 +27,5 @@ app.include_router(vote.router)
 
 @app.get('/')
 def root():
-    return {"message":"hello world from Ubuntu!!!!!"}  
+    return {"message":"hello world successfully deployed from CI/CD!!!!!"}  
  
