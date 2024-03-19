@@ -57,4 +57,4 @@ def test_vote_unauthroized_user(client, test_posts):
         json={"post_id":test_posts[0].id,
               "dir":1}
     )
-    assert res.status_code == 401
+    assert res.status_code == 401  
